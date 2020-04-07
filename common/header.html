@@ -2,15 +2,20 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Tyler Williams</title>
-        <meta name="Description" content="Home Page"/>
+        <title>Header</title>
+        <meta name="Description" content="Header"/>
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="../js/app.js"></script>
         <link rel="stylesheet" type="text/css" href="../css/app.css">
         <link rel="shortcut icon" href="../images/TW.svg">
     </head>
     <body>
-        <div id="header">
+        <div class="header" style="display: flex;">
+            <img style="cursor: pointer; position:absolute; left:.2rem; top:.6rem" title="Home" alt="TW Logo" width="34" height="26" src="../images/TW.png" onclick="javascript: window.location.href = 'home.html';"/>
+            <div style="position: absolute; left:2.7rem; top:0.6rem">
+                <a class="headerlink" href="../common/e_r_p_example.html" title="ERP Example">ERP</a>
+                <a class="headerlink" href="../common/web_apps.html" title="Web Apps Example">WebApps</a>
+            </div>
         </div>
 </body>
 </html>
